@@ -1,0 +1,69 @@
+.site-hero {
+    padding-bottom: 152px;
+    background-image: url("../img/heroimg/hero--bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.hero__heading {
+    width: 500px;
+    margin: 0px;
+    padding-top: 153px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    /* or 100% */
+
+    letter-spacing: -2.5px;
+
+    color: #FFFFFF;
+}
+
+.hero__text {
+    width: 500px;
+    padding-left: 57px;
+    padding-top: 40px;
+    padding-right: 40px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+
+  
+    color: #FFFFFF;
+}
+
+.hero__text::before {
+    content: url('../img/heroimg/to\'g\'rli-chiziq.png');
+    position: absolute;
+    
+    top: 466px;
+    left: calc(50% - 766px);
+
+}
+
+.hero__text::after {
+    content: url('../img/heroimg/strelka--img.png');
+    position: absolute;
+    
+    top: 468px;
+    left: calc(50% - 35px);
+}
+
+ .hero__end{
+     padding-top: 40px;
+ }
+
+
+ @media only screen and (max-width: 768px) {
+    .container{
+        width: 768px;
+    }
+    .site-hero{
+        margin: 0 auto;
+     }
+}

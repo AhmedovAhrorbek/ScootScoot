@@ -1,0 +1,165 @@
+.site-footer {
+
+    background: #495567;
+}
+
+.footer__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__heading {
+    padding-top: 102px;
+    padding-bottom: 102px;
+    width: 415px;
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+
+    letter-spacing: -2.14286px;
+
+    color: #FFFFFF;
+}
+.wrapper__App__Gooleplay{
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
+.footer__wrapper-Appstore {
+    background-color: #E5ECF4;
+    border-radius: 4px;
+}
+.footer__wrapper-GooglePlay{
+    background-color: #E5ECF4;
+    border-radius: 4px;
+}
+.footer__wrapper-link{
+    text-decoration: none;
+}
+.footer_Appstore_end{
+    position: relative;
+    // z-index: 2;
+    // display: inline-block;
+    
+}
+.footer__GooglePlay_end{
+    position: relative;
+    // z-index: 2;
+    // display: inline-block;
+}
+.footer_Appstore_end::before{
+    display: inline-block;
+    width: 25px;
+    z-index: 2;
+    height: 28px;
+    top: 15px;
+    position: absolute;
+    height: 29px;
+    left: 13px;
+    background-image: url('../img/communication\ img/applelogo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-top: 21px;
+    content: "";
+
+}
+
+.footer_GooglePlay_end::before{
+    
+    display: inline-block;
+    width: 28px;
+    z-index: 10;
+    height: 30px;
+    top: 15px;
+    position: absolute;
+    height: 30px;
+    left: 13px;
+    background-image: url('../img/communication\ img/applelogo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-top: 21px;
+    content: "";
+}
+
+.site-footer__store {
+    margin: 0px;
+    padding: 8px 15px 0px 52px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: -0.446429px;
+
+    color: #495567;
+
+}
+
+.site-footer-AppName {
+
+    margin: 0px;
+    padding: 0px 15px 9px 52px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+
+    letter-spacing: -0.892857px;
+
+    color: #495567;
+}
+
+.footer__end{
+    width: 100%;
+    background-color: #333A44;
+    height: 96px;
+}
+
+.site__footer-end{
+    
+    background-color: #333A44;
+}
+
+.site__footer-end-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 32px;
+
+}
+
+.wrapper_footer__logo__navbar{
+    display: flex;
+    align-items: center;
+    gap: 58.08px;
+}
+
+.header__nav-item{
+    border: none;
+}
+
+
+.site__footer-end-list{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.site__footer-end-item{
+    list-style-type: none;
+
+}
+.site__footer-end-item a:active{
+     color: white;
+}
